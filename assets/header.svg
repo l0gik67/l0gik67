@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" role="img" aria-labelledby="title desc">
+  <title id="title">Вадим Матвеев — Go Backend</title>
+  <desc id="desc">HTTP API, конкурентность и PostgreSQL. Схема передачи событий от горутин через канал к общему состоянию.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1827"/><stop offset="1" stop-color="#122d3b"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#28c7b7" stop-opacity=".18"/><stop offset="1" stop-color="#28c7b7" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#a7e8ed" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect width="1280" height="330" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="330" rx="20" fill="url(#grid)"/>
+  <ellipse cx="1040" cy="164" rx="320" ry="250" fill="url(#glow)"/>
+  <rect x="48" y="47" width="5" height="21" rx="2" fill="#58e0ca"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="68" y="64" font-size="18" letter-spacing="3" font-weight="700" fill="#8de9dd">ВАДИМ МАТВЕЕВ</text>
+    <text x="47" y="144" font-size="62" font-weight="700" fill="#f2f7fb">Go Backend</text>
+    <text x="50" y="188" font-size="22" fill="#b6c8d4">Разработка API. Конкурентность. Данные.</text>
+    <g font-size="14" font-weight="700" letter-spacing="1.5">
+      <rect x="50" y="237" width="67" height="34" rx="7" fill="#143b45" stroke="#32616a"/>
+      <text x="83" y="259" text-anchor="middle" fill="#90e7de">GO</text>
+      <rect x="129" y="237" width="81" height="34" rx="7" fill="#143b45" stroke="#32616a"/>
+      <text x="169" y="259" text-anchor="middle" fill="#90e7de">JAVA</text>
+      <rect x="222" y="237" width="151" height="34" rx="7" fill="#143b45" stroke="#32616a"/>
+      <text x="297" y="259" text-anchor="middle" fill="#90e7de">POSTGRESQL</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#56cabc" stroke-width="2">
+    <path d="M867 110H895Q910 110 910 125V155H945"/>
+    <path d="M867 165H945"/>
+    <path d="M867 220H895Q910 220 910 205V175H945"/>
+    <path d="M1081 165H1130"/>
+    <path d="M1123 159l7 6-7 6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g font-family="monospace" font-size="17">
+    <g fill="#112c3b" stroke="#42747c"><rect x="754" y="89" width="113" height="42" rx="8"/><rect x="754" y="144" width="113" height="42" rx="8"/><rect x="754" y="199" width="113" height="42" rx="8"/></g>
+    <g fill="#c2e5e6" text-anchor="middle"><text x="810" y="116">go func()</text><text x="810" y="171">go func()</text><text x="810" y="226">go func()</text></g>
+    <rect x="945" y="136" width="136" height="58" rx="10" fill="#17464b" stroke="#58cfbd"/>
+    <text x="1013" y="171" text-anchor="middle" fill="#b3f9ea">chan event</text>
+    <rect x="1130" y="136" width="101" height="58" rx="10" fill="#112c3b" stroke="#42747c"/>
+    <text x="1180" y="171" text-anchor="middle" fill="#c2e5e6">state</text>
+  </g>
+  <text x="995" y="284" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3" fill="#7295a3">HTTP API / CHANNELS / SQL</text>
+</svg>
